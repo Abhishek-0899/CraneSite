@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import ContactModal from "./ContactModal";
+import ContactModal from "./contactModal";
+
 
 const Navbar = () => {
   const [isContactModalOpen, setContactModalOpen] = useState(false);
